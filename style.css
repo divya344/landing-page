@@ -1,66 +1,60 @@
 *{
-    padding:0 ;
-    margin: 0;
-
+    padding: 0px;
+    margin: 0px;
 }
-.container{
-    width: 100%;
-    height:100vh;
-    background-image: linear-gradient(hsla(244, 95%, 85%, 0.502),transparent),url(images/home-slider.jpg);
-    background-size: cover;
-    background-position: left;
-    position: relative;
-}
-.text-box{
+.main{
     position: absolute;
-    color: #000;
-    margin-top: 8%;
-}
-.text-box h1{
-    font-size: 30px;
-    font-weight: 200px;
-    margin-left: 75px;
-    
-}
-.text-box h2{
-    font-size: 25px;
-    font-weight: 150;
-    margin-left: 75px;
-    margin-top: 30px;
-    justify-content: space-between;
-
-}
-.text-box p{
-    font-size:15px ;
-    font-weight: 100;
-    padding-top: 5px;
-    margin-top:10px ;
-      margin-left: 75px;
-
-}
-.text-box .btn{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 40px;
-    
-
-}
-.btn button{
-    color: orangered;
-    text-decoration: none;
-    padding: 10px 20px;
+    left: 10%;
+    padding:5px;
+    box-sizing: border-box;
     border-radius: 6px;
-    margin-left: 40px;
-    border: solid orange;
-    cursor: pointer;
-    background: transparent;
+    display: flex;
+    background: #fff;
+    
+
+
+
+}
+.left-column,.right-column{
+    
+flex-basis:50%;
     
     
 }
-.btn .primary-btn{
-    background: orange;
-    color: white;
-    margin-left: 33px;
+.right-column img{
+    width: 100%;
+    height:70% ;
+    margin-top:15px;
+
+    
+    
 }
+.left-column h1{
+    color: #000;
+    font-size: 20px;
+    margin-top:25px ;
+    margin-left: 15%;
+    padding-left: 10px;
+
+}
+span{
+    color: aqua;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+.left-column p{
+    
+    font-size: 13px;
+    font-family: 'Times New Roman';
+    margin-top:25px;
+    margin-right: 10%;
+    padding-right: 7px;
+    
+
+
+}
+
+
+
+
+
